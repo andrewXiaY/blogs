@@ -27,10 +27,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username: andrewXiaY
 
+show_excerpts: true
 # Build settings
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+theme: minima
 plugins:
   - jekyll-feed
 # Exclude from processing.
@@ -41,6 +40,8 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
+minima:
+  date_format: "%Y-%m-%d"
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
